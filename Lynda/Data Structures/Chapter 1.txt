@@ -1,0 +1,45 @@
+CHAPTER 1
+
+WHAT IS A DATA STRUCTURE?
+
+- Some ordered arrangement of data
+- Real world data structures: recipes, shopping list, flight schedule, etc.
+- Definition: An intentional arrangement of data.
+- Focus: Data structures created and held in memory during a program run.
+
+DESCRIBING SIMPLE DATA STRUCTURE
+
+- A "record" is the generic term for a group of related data (i.e., "Tuple")
+- A "field" is one specific piece of data in a record
+
+USING C-STYLE STRUCTS
+
+- "Struct" is a keyword in C
+- struct Book { ... }
+- Book first
+- first.title = "foo"
+- Difference from classes:
+	- Only data. Classes also have behavior (methods)
+	- Simple creation vs. explicit instantiation
+	- Pass by Value vs. Pass by Reference
+	- No OO features vs. Polymorphism, Inheritance, etc.
+	
+- Good example: (x, y) point on a screen
+- Do not exist in Python, but you can fake it.
+
+BASIC ARRAYS
+
+- Most fundamental data structure
+- Ordered collection of item
+- Zero-based index
+- Fixed size (immutable)
+- Specific data type
+- The more constraints you can put in place on a data structure, the smaller and faster it will be
+
+MULTIDIMENSIONAL ARRAYS
+
+- Usually array of arrays
+
+JAGGED ARRAYS
+
+- Array of arrays where the sub-arrays have different lengths

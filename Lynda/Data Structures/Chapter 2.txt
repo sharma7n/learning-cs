@@ -1,0 +1,41 @@
+CHAPTER 2
+
+RESIZABLE ARRAYS
+
+- Java: basic array is fixed size, use ArrayList for resizable
+- Objective C: Has basic array, NSArray, and NSMutableArray
+- Where to add the new element?
+- Re-indexing can have a performance impact
+- "Push" is a common term for adding an object to the end of a data structure
+- "Pop" is to remove an element from the end of a data structure
+
+- Five requirements of any data structure
+	- How to access (one / all items)
+	- How to insert (at end or position)
+	- How to delete (from end or position)
+	- How to find (if exists or get location)
+	- How to sort (sort in place or create sorted version)
+	
+SORTING ARRAYS
+
+- Sort can be expensive
+
+SORTING CUSTOM OBJECTS
+
+- Provide comparator
+
+SEARCHING ARRAYS
+
+- Linear/sequential search checks each element, O(n)
+- There is no data structure that's best in ALL situations
+
+USING BUILT-IN SEARCH BEHAVIOR
+
+- Typically "contains" for exists and "indexOf" for position
+- Might be doing a lot of work
+
+USING BINARY SEARCHING
+
+- Can be done if the array is ascending/descending order
+- AKA half-interval, divide and conquer
+- Look at the documentation and see if the language offers linear search by default, use binary search when possible.

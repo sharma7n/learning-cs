@@ -1,0 +1,10 @@
+INTRODUCTION
+
+- Course is NOT about designing the data structures, it's about usage.
+- Prerequisite knowledge:
+
+	- General programming skill
+	- Good with jargon and concepts
+	- Comfortable with any language, pseudo-code
+	- Object-orientation
+	- Language-independent
