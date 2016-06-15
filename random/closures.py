@@ -55,7 +55,7 @@ if __name__ == '__main__':
     def say_hello():
         print('hello!')
 
-    say_hello()
+    say_hello() # >> hello! hello!
 
 
     class Dog:
@@ -69,10 +69,10 @@ if __name__ == '__main__':
 
     dogs = [Dog(s) for s in ['Muffin', 'Gumshoe', 'Toodles']]
     for dog in dogs:
-        dog.bark()
+        dog.bark() # >> Muffin bark! Gumshoe bark! Toodles bark!
 
     generic_bark = extract_method(Dog, Dog.bark)
-    generic_bark()
+    generic_bark() # >> bark!
 
 
     def new_bark(self):
@@ -82,6 +82,6 @@ if __name__ == '__main__':
     Dog.bark = new_bark
 
     for dog in dogs:
-        dog.bark()
+        dog.bark() # >> Muffin woof! Gumshoe woof! Toodles woof!
 
-    generic_bark()
+    generic_bark() # >> bark!
