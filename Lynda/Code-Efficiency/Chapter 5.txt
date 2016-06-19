@@ -1,0 +1,34 @@
+CHAPTER 5: Network Efficiency
+
+- Minimize (repeated amounts of) network latency
+- Check development tools in network
+- Distance affects latency
+- "Chunky, not chatty" (i.e., minimize NewRecordSet)
+- Use CDN (CloudFront, EdgeCast, etc.)
+- Compress information
+
+Database Efficiency
+
+- Begin with normalization - later denormalize for performance
+- Measure with query and index analysis tools
+
+Next steps
+
+- Web app (server side)
+	- Caching
+	- Find platform best practices
+- Client side
+	- Run through Google PageSpeed
+- Mobile apps
+	- Learn language collection types
+	- Learn the profiler
+- Desktop apps
+	- Improve startup
+	- Better use of multithreading of UI
+	
+Conclusion
+
+- First, do nothing
+- You don't know the problem until you measure it
+- Understand what's under your control
+- Always look for easy win
